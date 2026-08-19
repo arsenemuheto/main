@@ -1,0 +1,4 @@
+open cv2
+ultralytics
+numpy
+YOLO
