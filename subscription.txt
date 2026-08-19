@@ -1,0 +1,8 @@
+1. siyi_capture_calibration.py  for capturing photos automatically with connected gimbal
+2. ZR10_calibration.py          for camera calibration
+3. siyi_set_angle.py            for setting gimbal camera pitch, yaw angle without touching it (change target_yaw, target_pitch)
+4. siyi_attitude_test.py        for printing you the current pitch, yaw of your gimbal
+5. localize.py                  for running the pixel conversion pipeline 
+
+6. Detect_SelectTarget.py          for detecting and selecting desired target by drawing a rectangle around it on the detection window 
+7. Detect_SelectTarget_v2.py        for detecting and selecting desired target by clicking within the bounding box of that object
