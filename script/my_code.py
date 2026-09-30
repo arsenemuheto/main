@@ -9,15 +9,6 @@ Project - pipeline script (report sections 1 to 6)
   5. Real angle measurement      gimbal yaw/pitch (SIYI SDK, CMD_ID 0x0D)
                                  + pixel offset of the tracked box centre (camera intrinsics)
   6. Gimbal angle control        absolute yaw/pitch commands (SIYI SDK, CMD_ID 0x0E)
-
-Usage examples
-  python mini_umwambi_pipeline.py                         # detect + track + measure angles
-  python mini_umwambi_pipeline.py --follow                # also re-point the gimbal at the target
-  python mini_umwambi_pipeline.py --phone-ip 192.168.1.5   # phone IP webcam (app "IP Webcam"), no gimbal
-  python mini_umwambi_pipeline.py --phone-ip 192.168.1.5 --phone-app droidcam
-  python mini_umwambi_pipeline.py --goto 30 -20           # command gimbal to yaw=30, pitch=-20 and exit
-  python mini_umwambi_pipeline.py --log angles.csv        # log measured angles for ground-truth validation
-
 Keys in the video window
   left click : select the target (click anywhere inside its bounding box)
   c          : clear the selected target
